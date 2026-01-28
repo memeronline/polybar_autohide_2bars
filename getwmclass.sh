@@ -11,6 +11,15 @@ wmclass=$(xprop -id $windowid | awk '/WM_CLASS/{print $4}' | awk '{gsub(/"/,"");
 
 # print the WM_CLASS
 echo $wmclass
+echo $windowid
+
+xdotool mousemove 0 1080
+windowid=$(xdotool getmouselocation | awk '{print $4}' | awk '{gsub(/\window:/,"");}1')
+wmclass=$(xprop -id $windowid | awk '/WM_CLASS/{print $4}' | awk '{gsub(/"/,"");}1')
+
+# print the WM_CLASS
+echo $wmclass
+echo $windowid
 
 # restore mouse location
 xdotool mousemove $mx $my

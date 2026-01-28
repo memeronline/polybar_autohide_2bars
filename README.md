@@ -8,7 +8,7 @@ PolyBar_Autohide is wm agnostic and bar agnostic, it should work with any wm and
 1. Clone the git repo in your home:
 
      ```[bash]
-     git clone https://github.com/arkeane/polybar_autohide.git ~/polybar_autohide
+     git clone https://github.com/memeronline/polybar_autohide_2bars ~/polybar_autohide_2bars
      ```
 
      - Install dependencies: `libxdo-dev` from [xdotool](https://github.com/jordansissel/xdotool)
@@ -27,5 +27,11 @@ PolyBar_Autohide is wm agnostic and bar agnostic, it should work with any wm and
 
 5. Uninstall with `make uninstall`
 
+## Additional info about this fork
+
+This is my first time ever putting out something like this (a.k.a; something which I expect will work for not only me, but also other people having this niche issue), so feel more than free to submit issues or any unintended behaviour
+
+P.S Im terrible at documenting things, if something doesn't work the way it should or you expect it to, also feel free to open an issue about it
+
 ________________________________________________________________________________
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZDKH4PL5Z3XN&source=url)
+[![Donate (to the original creator!) (obviously)](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LZDKH4PL5Z3XN&source=url)
