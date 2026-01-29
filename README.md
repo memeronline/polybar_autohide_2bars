@@ -32,3 +32,10 @@ PolyBar_Autohide is wm agnostic and bar agnostic, it should work with any wm and
 This is my first time ever putting out something like this (a.k.a; something which I expect will work for not only me, but also other people having this niche issue), so feel more than free to submit issues or any unintended behaviour
 
 P.S Im terrible at documenting things, if something doesn't work the way it should or you expect it to, also feel free to open an issue about it
+
+<hr></hr>
+
+## TODO
+
+- Add a toggle feature
+- Add a check for specified programs, so that they always show/hide polybar (if for e.g. stremio is in an array of specified programs, make sure that polybar is always hidden regardless of whether or not the window is fullscreen)
