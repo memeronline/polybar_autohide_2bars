@@ -39,3 +39,6 @@ P.S Im terrible at documenting things, if something doesn't work the way it shou
 
 - Add a toggle feature
 - Add a check for specified programs, so that they always show/hide polybar (if for e.g. stremio is in an array of specified programs, make sure that polybar is always hidden regardless of whether or not the window is fullscreen)
+
+# IMPORTANT UPDATE
+I've switched my system from x11 to wayland (kde plasma to be specific), and while trying to port this script to work both on x11 and wayland, I realized that porting it to wayland is way too hard for my current skill level, and seeing as I am not stooping low enough to use AI on a semi-personal project, this project and all the TODO's are abandoned until further notice. If anyone smarter than me wishes to make a fork or a pull request PLEASE feel more than free to do so seeing as I have no knowledge of any relevant wayland libraries and quite frankly even understanding the original of my fork was quite a headache
